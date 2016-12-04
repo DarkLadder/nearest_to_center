@@ -9,7 +9,7 @@ public class Length {
     }
     @Override
     public String toString() {
-        return "dd"+l;
+        return ""+l;
     }
 }
 

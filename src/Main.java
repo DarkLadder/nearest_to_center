@@ -10,12 +10,11 @@ public class Main {
 //        int count = sc.nextInt();
         System.out.println("Введите координаты точек");
 //        Calculation calc[] = new Calculation[count];
-//        for (int i = 0; i < count; i++) {
-//            calc[i] = new Calculation(sc.nextDouble(), sc.nextDouble());
-//            calc[i].Solver();
-//        }
-        Calculation calc = new Calculation(sc.nextDouble(), sc.nextDouble());
-        System.out.println(calc.Solver());
+        Calculation calc[] = new Calculation[3];
+        for (int i = 0; i < 3; i++) {
+            calc[i] = new Calculation(sc.nextDouble(), sc.nextDouble());
+            System.out.println(calc[i].Solver());
+        }
         sc.close();
     }
 }
