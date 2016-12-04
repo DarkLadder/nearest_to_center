@@ -3,8 +3,13 @@
  */
 public class Length {
     double l;
+
     public Length(double l) {
         this.l = l;
+    }
+    @Override
+    public String toString() {
+        return ""+l;
     }
 }
 
