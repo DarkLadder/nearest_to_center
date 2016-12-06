@@ -13,7 +13,7 @@ public class Main {
         Calculation calc[] = new Calculation[3];
         for (int i = 0; i < 3; i++) {
             calc[i] = new Calculation(sc.nextDouble(), sc.nextDouble());
-            System.out.println(calc[i].Solver());
+            calc[i].Solver();
         }
         sc.close();
     }

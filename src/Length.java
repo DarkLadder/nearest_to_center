@@ -3,7 +3,6 @@
  */
 public class Length {
     double l;
-    boolean leng;
 
     public Length(double l) {
         this.l = l;
