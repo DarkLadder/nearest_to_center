@@ -3,9 +3,13 @@
  */
 public class Length {
     double l;
+    boolean leng;
 
     public Length(double l) {
         this.l = l;
+    }
+    public boolean compare(Length leng) {
+        return this.l > leng.l;
     }
     @Override
     public String toString() {
