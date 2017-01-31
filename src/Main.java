@@ -21,7 +21,7 @@ public class Main {
             double x = calc.solver(sc.nextDouble(), sc.nextDouble());
             if (y>x) {y = x; n = n1;}
         }
-        System.out.println("Ближайщая точка имеет номер "+ n+ " и имеет длинну " + y);
+        System.out.println("Ближайщая точка имеет номер "+ n+ " и длинну " + y);
         sc.close();
     }
 }
