@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Нахождение ближайшего к центру.");
         System.out.println("Сколько всего точек?");
         int count = sc.nextInt();
-        System.out.println("Введите координаты точек");
+        System.out.println("Введите координаты " + count + " точек");
         System.out.print("1. ");
         double y = solver(sc.nextDouble(), sc.nextDouble());
         int n = 1;
@@ -24,9 +24,6 @@ public class Main {
         sc.close();
     }
     public static double solver(double x, double y) {
-        double l;
-        double dis = x*x + y*y;
-        l = Math.sqrt(dis);
-        return l;
+        return Math.sqrt(x*x + y*y);
     }
 }
